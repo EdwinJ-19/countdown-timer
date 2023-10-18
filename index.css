@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("i-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.count{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    color: white;
+    font-family: 'Tilt Neon', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+/* .count span{
+    margin-left: 80%;
+    padding-left: 30px;
+}
+.count p{
+    margin-left: 118%;
+    margin-bottom: 10%;
+} */
+.count .days-c,.hours-c,.minutes-c,.seconds-c{
+    padding-left: 30px;
+}
